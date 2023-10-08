@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://code.responsivevoice.org/responsivevoice.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand+SC&display=swap" rel="stylesheet">
+    <title>WaterCycleKids.com</title>
+</head>
+<body>
+    <header>
+        <div id="siteTitleContainer">
+            <h1 id="siteTitle">WaterCycleKids.com</h1>
+        </div>
+    </header>
+    <main>
+        <section class="hero">
+            <h2 id="aboutTitle">About the Water Cycle</h2>
+            <p id="aboutText">
+                The water cycle is an incredible process that keeps water in constant motion around our planet. It's like a thrilling adventure for water!
+            </p>
+        </section>
+        <section class="buttons">
+            <button id="evaporationBtn">What's Evaporation?</button>
+            <button id="condensationBtn">Tell Me About Condensation!</button>
+            <button id="precipitationBtn">Let's Talk Precipitation!</button>
+            <button id="runoffBtn">What's Runoff, Anyway?</button>
+        </section>
+        <section id="infoDiv" class="hidden"></section>
+        <div class="language-selector">
+            <label id="languageLabel" for="language">Select Language:</label>
+            <select id="language">
+                <option id="enOption" value="en">English</option>
+                <option id="frOption" value="fr">French</option>
+            </select>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
